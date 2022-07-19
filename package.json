@@ -1,0 +1,28 @@
+{
+  "name": "a-and-m_aesthetic_and_wellness",
+  "version": "1.0.0",
+  "description": "website source code for a and m aesthetic and wellness website",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Gabbydamian/A-M-aesthetics.git"
+  },
+  "keywords": [
+    "health",
+    "wellness"
+  ],
+  "author": "Damian Gabriel",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Gabbydamian/A-M-aesthetics/issues"
+  },
+  "homepage": "https://github.com/Gabbydamian/A-M-aesthetics#readme",
+  "dependencies": {
+    "bootstrap": "^5.2.0",
+    "bootstrap-icons": "^1.9.1",
+    "font-awesome": "^4.7.0"
+  }
+}
