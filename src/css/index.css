@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700;800;900&display=swap');
+
 * {
   box-sizing: border-box;
 }
@@ -16,8 +18,7 @@ body {
   margin: 0;
   padding: 0;
   font-size: 16px;
-  font-family: sans-serif;
-}
+  font-family: 'Raleway', sans-serif;}
 
 a {
   color: var(--blue);
@@ -35,39 +36,32 @@ ul {
   padding: 0;
 }
 
-header {
-  max-height: 100px;
-  padding: 20px 0;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  /* background-color: var(--yellow); */
+.logo{
+  max-width: 130px;
+  margin-left: 20px;
 }
 
-.logo {
-  max-height: 60px;
-  max-width: 150px;
-  margin: 0 120px;
+.navbar-toggler:focus{
+  outline: none;
+  box-shadow: none;
 }
 
-nav {
-  margin: 0 120px 0 auto;
+.navbar-toggler{
+  box-shadow: none !important;
+  border: none;
 }
 
-.navigation-item {
-  margin: auto 20px;
+.navbar-nav{
+margin-left: auto;
+display: flex;
+justify-content: space-between;
+}
+.nav-item{
+  margin: auto;
+  background: red;
 }
 
-.navigation-link {
-  text-transform: capitalize;
-  font-weight: 300;
-  padding: 3px 7px;
-  color: var(--green);
-}
 
-.navigation-link:hover {
-  font-weight: 500;
-  border-bottom: 3px solid var(--green);
-  border-radius: 2px;
-  color: var(--green);
-}
+
+
+
