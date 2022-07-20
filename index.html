@@ -11,18 +11,20 @@
       integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
       crossorigin="anonymous"
     />
+    <link rel="stylesheet" href="./node_modules/bootstrap-icons/font/bootstrap-icons.css" type="text/css" media="all" />
     <link
       rel="stylesheet"
       href="./node_modules/bootstrap/dist/css/bootstrap.min.css"
     />
+ 
     <link rel="stylesheet" href="./src/css/index.css" />
     <title>A&M aesthetics</title>
   </head>
   <body>
     <nav class="navbar navbar-expand-lg bg-light">
       <div class="container-fluid">
-        <a class="navbar-brand logo" href="#">
-          <img src="./assets/images/logo.png" alt="">
+        <a class="navbar-brand logo" href="./index.html">
+          <img src="./assets/images/logo.png" alt="logo.png">
         </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
@@ -30,24 +32,94 @@
         <div class="collapse navbar-collapse" id="navbarNav">
       <ul class="navbar-nav">
         <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#">Home</a>
+          <a class="nav-link" aria-current="page" href="./index.html">Home</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">About Us</a>
+          <a class="nav-link" href="#about">About Us</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Treatments</a>
+          <a class="nav-link" href="#treatments">Treatments</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="#">Team</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Contact</a>
+          <a class="nav-link-contact" href="#">
+            <i class="bi bi-telephone-fill inline"></i>
+            &nbsp;Contact Us</a>
         </li>
       </ul>
     </div>
     </div>
   </nav>
+  
+  <div class="container">
+    <section id="home">
+      <div class="row">
+        <div class="col-12 col-md-8">
+        <div class="text">
+          <h1>Non-Surgical Body Contouring</h1>
+          <p>A non-surgical procedure that targets and reduces unwanted fat deposits from the love handles, abdomen, inner thighs, outer thighs, chin and flanks.</p>
+        </div>
+        <div class="button">
+          <a href="#" class="btn">Learn more &nbsp;<i class="bi bi-arrow-right-short inline"></i></a>
+        </div>
+      </div>
+      </div>
+
+    </section>
+  </div>
+  
+  <div class="container-fluid bg-light">
+     <section id="about">
+      <div class="row">
+        <div class="col-12 col-md-10 mx-auto">
+          <div class="about text-center">
+            <h1>
+              Skin & Body Care Treatment Clinic & Cosmetic Centre
+            </h1>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid cupiditate inventore aut commodi voluptates possimus quisquam nihil ea mollitia cumque quibusdam repellat omnis, voluptatibus, reprehenderit ad incidunt ut, dolore obcaecati repudiandae! A aliquam labore architecto non est, rerum necessitatibus, ex dolorum officia sed ratione reprehenderit quas corporis tempore aperiam eveniet.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>
+  
+  <div class="container">
+    <section id="treatmemts">
+      <div class="row">
+        <div class="col-12 mx-auto">
+          <h1 class="text-center">Treatments</h1>
+          <div class="treatments-row col-12 col-12 mx-auto">
+            <a class="treatment" href="#">
+              <img src="#" alt="treatment.png">
+              <div class="treatment-text">
+                <h3>Skin</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas, reiciendis, minus.</p>
+              </div>
+          </a>
+            <a class="treatment" href="#">
+              <img src="#" alt="treatment.png">
+              <div class="treatment-text">
+                <h3>Skin</h3>
+                <p>Tenetur, vel veniam, qui in nihil hic consectetur quod doloribus non aspernatur totam fuga repellendus iusto quasi nostrum quisquam.</p>
+              </div>
+          </a>
+            <a class="treatment" href="#">
+              <img src="#" alt="treatment.png">
+              <div class="treatment-text">
+                <h3>Skin</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur, vel veniam, qui.</p>
+              </div>
+          </a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>
+  
     <script src="./node_modules/bootstrap/dist/js/bootstrap.min.js" type="text/javascript" charset="utf-8"></script>
     <script src="./src/js/index.js"></script>
   </body>
