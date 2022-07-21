@@ -26,7 +26,7 @@ body {
 }
 
 a {
-  color: var(--blue);
+  color: var(--black) !important;
   text-decoration: none;
 }
 
