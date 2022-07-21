@@ -156,6 +156,11 @@ section {
   box-shadow: 1px 1px 5px #dbdbdb;
 }
 
+.treatment:hover .treatment-text h3{
+  color: var(--mint) !important;
+  font-weight: bold;
+}
+
 .treatment-image {
   background-image: url(../../assets/images/treatment.jpeg);
   background-size: cover;
@@ -172,6 +177,121 @@ section {
 .treatment p {
   color: var(--black);
   font-size: 1rem;
+}
+
+.why-us_info{
+  display: flex;
+  flex-flow: wrap;
+  justify-content: center;
+  margin-top: 20px;
+}
+.why-us_info-item{
+  max-width: 200px;
+  margin: 20px 30px;
+  text-align: center;
+}
+
+.item-icon{
+  height: 120px;
+  width: 120px;
+  border-radius: 50%;
+  margin: 10px auto;
+  background: red;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #cbd8e1;
+  font-size: 3rem;
+  transition: var(--transition);
+}
+
+.item-icon:hover{
+  background: var(--blue);
+}
+
+#team h2{
+  margin-bottom: 50px;
+}
+
+.team-member{
+  max-width: 300px;
+  margin: 20px 30px;
+  text-align: center;
+}
+
+.team{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.team-member_info{
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.member-name{
+  font-weight: bold;
+  margin: 20px auto 10px auto;
+}
+
+.member-title{
+  text-transform: uppercase;
+  font-family: inherit;
+}
+
+.member-contact{
+  display: flex;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.contact-icon{
+  width: 30px;
+  height: 30px;
+  background-color: var(--blue);
+  margin: 0 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.3rem;
+  border-radius: 50%;
+  color: var(--white)!important;
+  transition: var(--transition);
+}
+
+.contact-icon:hover{
+  background: var(--mint);
+  color: var(--black);
+}
+
+.contact input, .call input{
+  margin: 10px auto;
+  width: 100%;
+  font-family: inherit;
+}
+
+.form-submit{
+  margin-top: 15px;
+  padding: 7px 15px;
+  border-radius: 5px;
+  outline: none;
+  border: none;
+  background: var(--mint);
+  transition: var(--transition);
+}
+
+.form-submit:hover{
+  background: var(--blue);
+}
+
+#call{
+  padding: 40px 20px;
+}
+
+.call{
+  padding-bottom: 20px;
 }
 
 
@@ -229,10 +349,6 @@ section {
     margin-left: 90px;
   }
 
-  nav.navbar {
-    /* position: sticky;*/
-  }
-
   .navbar-nav {
     margin-right: 50px !important;
   }
@@ -271,4 +387,10 @@ section {
   .button .btn:hover {
     width: 300px;
   }
+  
+  .form-wrap{
+    margin-left: 30px !important;
+    margin-right: auto !important;
+  }
+  
 }
