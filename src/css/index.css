@@ -78,7 +78,12 @@ h6 {
 }
 
 .nav-link {
+  color: var(--black);
   transition: var(--transition);
+}
+
+.nav-link:hover {
+  color: var(--black);
 }
 
 .nav-link-contact {
@@ -95,8 +100,7 @@ h6 {
 }
 
 section {
-  margin: 50px 0;
-  padding: 20px;
+  padding: 70px 20px;
 }
 
 #bg-1 {
