@@ -319,6 +319,10 @@ section {
   color: var(--white) !important;
 }
 
+.footer-link:hover {
+  background-color: var(--mint);
+}
+
 .footer-info {
   display: flex;
   flex-direction: column;
