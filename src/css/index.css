@@ -26,7 +26,7 @@ body {
 }
 
 a {
-  color: var(--blue);
+  color: var(--black) !important;
   text-decoration: none;
 }
 
@@ -88,7 +88,7 @@ h6 {
 
 .nav-link-contact {
   background: var(--mint);
-  padding: 10px 16px;
+  padding: 10px 20px;
   border-radius: 8px;
   color: var(--black);
   transition: var(--transition);
@@ -174,42 +174,6 @@ section {
   font-size: 1rem;
 }
 
-@media (max-width: 1091px) {
-  .logo {
-    max-width: 130px;
-    margin-right: auto;
-    margin-left: 50px;
-  }
-  .navbar-nav {
-    margin: 50px auto 20px auto;
-    width: 100%;
-  }
-  .nav-item {
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-
-  .nav-link {
-    width: 100%;
-    text-align: center;
-    border-radius: 5px;
-  }
-
-  .nav-link:hover {
-    background-color: var(--mint);
-  }
-
-  .nav-link.active {
-    background-color: var(--mint);
-  }
-
-  .nav-link-contact {
-    margin-top: 10px;
-    margin-left: 0;
-  }
-}
 
 @media (max-width: 768px) {
   .logo {
