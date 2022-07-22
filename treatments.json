@@ -1,0 +1,67 @@
+{
+  "treatments" : [
+    {
+      "id":"01",
+      "name":"injectables",
+      "description-short":"INSERT DESCRIPTION",
+      "description-full":"INSERT DESCRIPTION",
+      "image":"assets/images/injectable.png",
+      "treatments":[
+        {
+          "id":"01-1",
+          "name":"chin",
+          "description-short":"DESCRIPTION",
+          "description-full":"DESCRIPTION"
+        },
+        {
+          "id":"01-2",
+          "name":"jaw-line",
+          "description-short":"DESCRIPTION",
+          "description-full":"DESCRIPTION"
+        }
+        ]
+    },
+    {
+      "id":"02",
+      "name":"skin",
+      "description-short":"INSERT DESCRIPTION",
+      "description-full":"INSERT DESCRIPTION",
+      "image":"assets/images/skin.png",
+      "treatments":[
+        {
+          "id":"02-1",
+          "name":"acne",
+          "description-short":"DESCRIPTION",
+          "description-full":"DESCRIPTION"
+        },
+        {
+          "id":"02-2",
+          "name":"acne-scars",
+          "description-short":"DESCRIPTION",
+          "description-full":"DESCRIPTION"
+        }
+        ]
+    },
+    {
+      "id":"03",
+      "name":"body",
+      "description-short":"INSERT DESCRIPTION",
+      "description-full":"INSERT DESCRIINSERT",
+      "image":"assets/images/body.png",
+      "treatments":[
+        {
+          "id":"03-1",
+          "name":"cellulite",
+          "description-short":"DESCRIPTION",
+          "description-full":"DESCRIPTION"
+        },
+        {
+          "id":"03-2",
+          "name":"stretch-mark",
+          "description-short":"DESCRIPTION",
+          "description-full":"DESCRIPTION"
+        }
+        ]
+    }
+    ]
+}
