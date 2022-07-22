@@ -23,6 +23,7 @@ body {
   scroll-behavior: smooth;
   scroll-margin-top: 50px;
   user-select: none;
+  background: var(--white);
 }
 
 a {
@@ -379,6 +380,10 @@ section {
     width: 100%;
     text-align: center;
     border-radius: 5px;
+  }
+  
+  #bg-1{
+    background: var(--white);
   }
 
   .nav-link:hover {
