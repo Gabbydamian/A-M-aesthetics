@@ -3,63 +3,296 @@
     {
       "id":"01",
       "name":"injectables",
-      "description-short":"INSERT DESCRIPTION",
-      "description-full":"INSERT DESCRIPTION",
+      "description":"Injectable treatments are the easiet and safest way to treat wrinkles & shape facial features.",
       "image":"assets/images/injectable.png",
       "treatments":[
         {
           "id":"01-1",
-          "name":"chin",
-          "description-short":"DESCRIPTION",
-          "description-full":"DESCRIPTION"
+          "name":"nose",
+          "description-short":"Non-surgical nose reshaping is an incredibly popular treatment and can help to improve the aesthetic look of your nose.",
+          "description-full":"Non-surgical nose reshaping is an incredibly popular treatment and can help to improve the aesthetic look of your nose. Whilst some people have a proportioned and symmetrical nose, a lot of people are not content with the shape and other aspects of their nose. /n Also known as a liquid nose job, nose re-shaping is a significantly less invasive and safe alternative to surgery, yielding fast results. It is particularly effective for making a nose appear straighter, eliminating bumps, edges and cavities.",
+          "image":"assets/images/nose.png",
+          "procedure-time":"30 mins",
+          "downtime":"Minimal",
+          "result-duration":"12-18 Months",
+          "procedure":"After a discussion with one of our Medical Aesthetic Doctors about your treatment expectations we will explain in detail the specifics of your individual case and answer all your questions. Then the procedure can go ahead. It is a straightforward, fast and painless treatment. The fillers work by adding volume to fill out irregularities across your nose such as bumps and edges, whilst also improving profile. Treatment is performed with your unique facial aesthetic in mind, to give a natural, authentic and in-keeping result.",
+          "results":{
+            "intro":"A liquid nose job will result in improving issues like:",
+            "outro":"By achieving balance and harmony on the face with non-surgical nose re-shaping, many people find they feel more comfortable in their skin, which has a knock-on effect in other areas of their lives.",
+            "results":["* Raising the bridge of your nose", "*  Correcting mild deviation", "*  Refining its shape and increasing the projection of the tip of your nose", "* Improve irregularities that have occurred through trauma or injury."]
+          },
+          "faq":{
+            "first":{
+              "question":"Will I need to take time to recover?",
+              "answer":"One of the main benefits of non-surgical nose re-shaping is there is no need to arrange for time off work. You can leave the clinic and resume your normal activities immediately after the procedure."
+            },
+            "second":{
+              "question":"When will the full results be visible?",
+              "answer":"After around two weeks you will see the full results of nose re-shaping, with the filler settling into its final position. You can expect the effects to last for up to a year, though regular treatment can prolong the effects beyond this time."
+            },
+            "third":{
+              "question":"Are there any side effects?",
+              "answer":"You may experience some mild swelling for a maximum of two weeks after the procedure. Mild bruising is also possible, but not common, for a few hours after the treatment."
+            },
+            "fourth":{
+              "question":"How long does treatment take?",
+              "answer":"The nose filler treatment using dermal filler injections takes as little as 15 minutes to administer. Please calculate some extra time for your consultation and preparation stage."
+            },
+            "fifth":{
+              "question":"Will this treatment help me achieve a smaller, thinner nose?",
+              "answer":"Whilst nose filler treatment can help create shadows that make your nose appear straighter and, in some cases, thinner, it is not possible to physically reduce the size of the nose using dermal fillers. In the case of size reduction you will need to consider a surgical treatment."
+            }
+          }
         },
         {
           "id":"01-2",
-          "name":"jaw-line",
-          "description-short":"DESCRIPTION",
-          "description-full":"DESCRIPTION"
+          "name":"chin",
+          "description-short":"The chin can often be an area of the face that goes overlooked when it comes to aesthetic treatments.",
+          "description-full":"The chin can often be an area of the face that goes overlooked when it comes to aesthetic treatments. But a well-defined and shaped chin can achieve symmetry and harmony for the rest of the face and significantly improve your look. Dermal fillers are used as an effective, non-surgical treatment that helps to create the ideal ratio between the chin, mouth and nose. Chin fillers can achieve this balance by projecting the chin forwards or downwards using hyaluronic acid.",
+          "image":"assets/images/chin.png",
+          "procedure-time":"30-45 mins",
+          "downtime":"Minimal",
+          "result-duration":"12-18 Months",
+          "procedure":"After an initial consultation to examine your facial proportions and symmetry, dermal fillers can be administered to the areas of the chin you wish to enhance via one or a series of safe and for the most part painless injections. Dermal fillers are comprised of hyaluronic acid, which is a natural substance and part of the human body which is responsible for youthful and healthy-looking skin. By replenishing the supply of hyaluronic acid in the chin area, your whole face will look rejuvenated and in proportion with other features such as your nose, cheeks and lips. The fillers are administered using a very fine needle, a process that is virtually painless.",
+          "results":{
+            "intro":"Chin enhancement with dermal fillers can help to:",
+            "outro": null,
+            "results":["* Fill in the jawline angle to improve definition", "*  Yield a face lift effect", "*  Tighten laxity under the chin, helping to eliminate saggy skin", "* Injecting around the prejowl area can tighten excess skin under the neck", "*  Improve facial proportion and ratio", "*  Fill in scars and folds, which can otherwise impair the appearance of your chin"]
+          },
+          "faq":{
+            "first":{
+              "question":"Are there any side effects or recovery time?",
+              "answer":"You may experience some mild redness and swelling in the days after the procedure. One of the great benefits of dermal fillers is you can go back to your normal activities right after you leave the clinic."
+            },
+            "second":{
+              "question":"How long do results last??",
+              "answer":"Chin fillers is a relatively quick procedure and can take less than 30 minutes to administer."
+            },
+            "third":{
+              "question":"How long does treatment take?",
+              "answer":"Chin fillers is a relatively quick procedure and can take less than 30 minutes to administer."
+            }
+          }
+        },
+         {
+          "id":"01-3",
+          "name":"Eye Bags",
+          "description-short":"Bags under the eyes, or dark circles may be the result of various factors, not just a lack of sleep, like ageing, genetics and lifestyle elements such as sun exposure, diet and chronic fatigue. ",
+          "description-full":"Bags under the eyes, or dark circles may be the result of various factors, not just a lack of sleep, like ageing, genetics and lifestyle elements such as sun exposure, diet and chronic fatigue. As volume is lost as a result of these influences, a dark patch can develop, making someone appear older beyond their years. Dermal fillers can be used to restore volume to the under eye area, also known as tear trough treatment. By diligently administering fillers to targeted areas of the under eye area, your whole face is refreshed and rejuvenated.",
+          "image":"assets/images/eye-bags.png",
+          "procedure-time":"30-45 mins",
+          "downtime":"Minimal",
+          "result-duration":"10-16 Months",
+          "procedure":"After a discussion with the Medical Aesthetic Doctor about your medical history and expectations of treatment, the procedure can go ahead. The fillers are administered using a very fine needle and work to replenish the skin’s supply of hyaluronic acid, the natural substance responsible for keeping your skin healthy-looking and youthful. Dermal fillers are particularly attractive for this reason, offering a natural solution to combat under eye circles.",
+          "results":{
+            "intro":"Under eye treatment can help in the following ways:",
+            "outro": null,
+            "results":["* Eliminate the appearance of dark, hollow circles that are synonymous with fatigue.", "*  Restore volume to the area to give healthier-looking eyes.", "*  Give the effect of an eye-lift."]
+          },
+          "faq":{
+            "first":{
+              "question":"Are there any side effects or recovery time?",
+              "answer":"It is common to experience some redness and bruising after this type of treatment. This may cause mild discomfort (if any) and some swelling that will subside within a week."
+            },
+            "second":{
+              "question":"How long does the procedure last??",
+              "answer":"Treatment takes only 30 to 45 minutes to complete."
+            },
+            "third":{
+              "question":"Will I need to take time out to recover?",
+              "answer":"No. When compared with surgery, one of the great things about treatment with dermal fillers is you do not have to take time out from your busy schedule. Get back to your normal activities straight away."
+            }
+          }
         }
         ]
     },
     {
       "id":"02",
       "name":"skin",
-      "description-short":"INSERT DESCRIPTION",
-      "description-full":"INSERT DESCRIPTION",
+      "description":"Our wide range of skin treatments apply to all skin conditions.",
       "image":"assets/images/skin.png",
       "treatments":[
         {
           "id":"02-1",
-          "name":"acne",
-          "description-short":"DESCRIPTION",
-          "description-full":"DESCRIPTION"
+          "name":"Acne",
+          "description-short":"Our medical grade acne facials and peels are versatile and suitable for all skin types and tones.",
+          "description-full":"It is not fully understood why acne occurs; for sufferers, it can be a day-to-day nuisance and source of physical and emotional stress. What we do know is it is to do with follicles of the skin overproducing cells and becoming blocked, triggering a build-up of bacteria. Our medical grade acne facials and peels are versatile and suitable for all skin types and tones. They are designed to reduce the appearance of acne and help to keep it at bay, rejuvenating your skin and facial aesthetic. ",
+          "image":"assets/images/acne.png",
+          "procedure-time":"15-30 mins",
+          "downtime":"Minimal",
+          "result-duration":"Varies",
+          "procedure":"During a consultation, we will examine your skin and learn about your general health. We will put together a tailored plan to address your individual skin concerns. This will vary depending on the type of acne you have and where its located on the face. The use of a peel and facial together is the most effective way of repairing, refreshing and restoring skin to its former glory. Whilst a peel removes the layer of outer layer skin with a view to exfoliating and brightening it, a facial will cleanse and remove toxins and bacteria that would otherwise continue to cause and exacerbate acne. Here at A-M Aesthetics, we use Dermaquest, a market leading, reputable skincare brand. ",
+          "results":{
+            "intro":"Medical grade acne facials and peels will improve skin in the following ways:",
+            "outro": null,
+            "results":["* collagen is stimulated in the skin, giving more youthful looking-skin once the acne gradually disappears.", "*  Balance skin oil levels: in doing so, impurities and bacteria is removed, giving skin room to breathe.", "*  your skin will have a healthy, uniform look. Say goodbye to lumps, bumps and patches, all of which are common symptoms of acne.."]
+          },
+          "faq":{
+            "first":{
+              "question":"Do I need multiple treatments?",
+              "answer":"This depends on the severity of your acne and the results you wish to achieve. If you are looking for a sustained result, it is recommended that you undergo a series of treatments 4-6 weeks apart. If you are seeking a quick rejuvenation treatment prior to a special occasion, a single treatment may be sufficient. "
+            },
+            "second":{
+              "question":"When will I see results?",
+              "answer":"You will see a difference instantly after treatment, with the full effects showing after a few weeks."
+            },
+            "third":{
+              "question":"Will I need to take time out to recover?",
+              "answer":"This depends on the type of treatment you opt for. With Dermaquest, we can offer invasive and less invasive peels to suit different needs. We will discuss your options during the consultation appointment.  "
+            }
+          }
         },
         {
           "id":"02-2",
-          "name":"acne-scars",
-          "description-short":"DESCRIPTION",
-          "description-full":"DESCRIPTION"
+          "name":"Age Spots",
+          "description-short":"Resurfacing facials and topical creams are non-surgical treatments that can eradicate age spots to rejuvenate your skin.",
+          "description-full":"As we age, our skin goes through certain changes, with lifestyle factors like sun exposure and genetics speeding up the appearance of age spots, also known as liver spots. Age spots come in various shapes and sizes, predominantly affecting the hands and face, as these are the areas most exposed to UV light. Overtime, UV light speeds up the production of melanin, the natural pigment that gives skin its colour, and age spots gradually become more prevalent. Whilst these small brown spots can look suspiciously like melanoma (skin cancer), they are actually harmless. Before addressing age spots as a cosmetic issue, the medical aesthetics doctor will start by ruling out melanoma, to make sure you and your skin are in good health, first and foremost. Resurfacing facials and topical creams are non-surgical treatments that can eradicate age spots to rejuvenate your skin. The controlled application of an acid solution triggers healthy skin cell turnover, replacing skin affected by age spots. Topical creams are then prescribed as a take-home solution to interrupt melanin formation, keeping the spots at bay.",
+          "image":"assets/images/age-spots.png",
+          "procedure-time":"10-15 mins",
+          "downtime":"Minimal",
+          "result-duration":"varies",
+          "procedure":"After a discussion about your general health and expectations of treatment, a tailored approach is taken to address your unique skin concerns. The medical aesthetics doctor will identify what depth and strength is necessary for your unique case. The ingredients are then carefully applied to your skin.",
+          "results":{
+            "intro":"Treatment can work to achieve the following:",
+            "outro": null,
+            "results":["* treatment can address areas of discolouration, restoring your skin to its natural tone.", "*  smoothens out skin texture by removing raised and bumpy spots as well as small red dots.", "* removing age spots accentuates your natural features, restoring harmony to your skin and in turn, your whole face."]
+          },
+          "faq":{
+            "first":{
+              "question":"Is this treatment just for the face?",
+              "answer":"No. Treatment can also be applied to the hands and chest.."
+            },
+            "second":{
+              "question":"Is it painful?",
+              "answer":"No. Your skin may feel a little hot and itchy whilst the active ingredients are applied, but this will only last for a few minutes."
+            },
+            "third":{
+              "question":"Will I need to take time out to recover?",
+              "answer":"No. One of the reasons non-surgical resurfacing facials are so popular is patients can return to their normal activities, without the need for a recovery period. "
+            }
+          }
+        },
+        {
+          "id":"02-3",
+          "name":"Melasma",
+          "description-short":"Resurfacing facials and peels are widely considered as an effective non-surgical means of treating varying degrees of melasma, restoring smooth and even-looking skin tone and texture.",
+          "description-full":"Melasma (also known as pregnancy mask) is pigmentation of the face that affects 30% of women though it is not entirely clear why and how it occurs. It is thought that a combination of genetics, sun exposure, female hormones and pregnancy causes melasma and it can affect all areas of the face and hands. Resurfacing facials and peels are widely considered as an effective non-surgical means of treating varying degrees of melasma, restoring smooth and even-looking skin tone and texture.",
+          "image":"assets/images/melasma.png",
+          "procedure-time":"15-30 mins",
+          "downtime":"Minimal",
+          "result-duration":"varies",
+          "procedure":"During an initial consultation, we will examine your skin and ask you about your general health. We will also listen to your expectations of treatment and create a tailored plan to address your concerns. Advanced cosmetic peels are applied to the top layers of your skin and (as the name suggests) induce peeling, to trigger the removal of unwanted melanin. This allows for the growth of healthy skin to take its place, with the new skin cells being free of excess melanin. Resurfacing facials leverage the effects of a cosmetic peel, cleansing and brightening the new skin that has come through. The medical aesthetics doctor will identify the optimal peel, depending on your skin type and how affected it is.",
+          "results":{
+            "intro":"Post-treatment, your skin will benefit in the following ways:",
+            "outro": null,
+            "results":["* by eradicating signs of melasma, your skin will appear more uniform in tone.", "*  in some cases, a person’s facial structure can exacerbate melasma and give an unhealthy and fatigued appearance to the skin. Addressing this re-invigorates your whole face.", "* any lumps and bumps are smoothened out as a result of treatment, giving your skin an even texture."]
+          },
+          "faq":{
+            "first":{
+              "question":"Are there any side effects?",
+              "answer":"There may be some redness in the days after treatment but this will be painless.."
+            },
+            "second":{
+              "question":"Is it painful?",
+              "answer":"Your will notice a difference immediately after treatment. The time it takes to see the full effects will depend on how mild or severe the melasma is."
+            },
+            "third":{
+              "question":"How can I maintain the results?",
+              "answer":"Limiting sun and UV exposure by wearing a hat and applying sun cream with a high SPF post-treatment will help to keep melasma at bay in the long-term."
+            }
+          }
         }
         ]
     },
     {
       "id":"03",
       "name":"body",
-      "description-short":"INSERT DESCRIPTION",
-      "description-full":"INSERT DESCRIINSERT",
+      "description":"Skin Tigheting, cellulite reduction, laser hair removal and many more.",
       "image":"assets/images/body.png",
       "treatments":[
         {
-          "id":"03-1",
-          "name":"cellulite",
-          "description-short":"DESCRIPTION",
-          "description-full":"DESCRIPTION"
+          "id":"02-1",
+          "name":"Cellulite",
+          "description-short":"Velashape III achieves the best cellulite reduction by combining a real-time temperature sensor with Smart RF (RadioFrequency). The device has evolved to listen the the patients body, making the treatment very comfortable and faster.",
+          "description-full":"Based on the latest research 85-98% of women have some degree of cellulite. It has also been found that female hormones are playing a significant part in contributing to its presence. Cellulite exists in women of all sizes and skin types and is the result of fat cells pushing up against the skin, creating uneven dimpling on the surface. This often occurs around the thigh, hip, buttock and abdomen areas. The bad news is that cellulite can be resistant to even the most stringent dieting and exercise. The good news is that our state-of-the-art cellulite reduction machine VelaShape III from reputable market-leading brand Syneron-Candela can help you to eradicate tenacious cellulite across targeted areas of your body. This is a highly popular and effective alternative cellulite treatment to replace older surgical procedures. Velashape III achieves the best cellulite reduction by combining a real-time temperature sensor with Smart RF (RadioFrequency). The device has evolved to listen the the patients body, making the treatment very comfortable and faster.",
+          "image":"assets/images/cellulite.png",
+          "procedure-time":"30-45 mins",
+          "downtime":"Minimal",
+          "result-duration":"Varies",
+          "procedure":"During a consultation appointment with one of our Medical Aesthetic Doctors, you will be able to pose any questions you have about the treatment. You will be asked some general questions about your medical background and lifestyle to help offer a customized therapy course just for you. Infrared light, vacuum and bi-polar radio frequency energy is used to remove cellulite and stimulate collagen and elastin production in the body, leaving you with beautiful, cellulite-free skin. It takes only 20-30 minutes to complete. Convenient for those with busy lives.",
+          "results":{
+            "intro":"VelaShapeIII has been proven to temporarily reduce the appearance of cellulite. This treatment will help to:",
+            "outro": null,
+            "results":["* Increase lymphatic drainage, circulation and metabolism", "*  Boost collagen production", "*  Reduce the appearance of loose and saggy skin", "Decrease the volume of targeted areas by at least 2 centimeters", "Reduce the appearance of cellulite"]
+          },
+          "faq":{
+            "first":{
+              "question":"How quickly will I see results?",
+              "answer":"Treatment can last for up for two years, alongside a regular exercise routine and healthy diet. Treatment is all about giving you a new foundation upon which to create healthier habits and keep cellulite at bay in the long-term."
+            },
+            "second":{
+              "question":"Is it painful?",
+              "answer":"You should not feel any discomfort during treatment. You may experience some minor warmth around the areas that have been treated for around 1-2 hours afterwards. The VelaShape III is focused on giving patients the most comfortable experience possible, a further reason why it has garnered such a respected reputation amongst clinicians and patients."
+            },
+            "third":{
+              "question":"Will I need to take time out to recover?",
+              "answer":"One of the advantages of this non-surgical means of reducing cellulite is there is no recovery period involved. You can go back to your normal activities immediately after treatment."
+            }
+          }
         },
         {
-          "id":"03-2",
-          "name":"stretch-mark",
-          "description-short":"DESCRIPTION",
-          "description-full":"DESCRIPTION"
+          "id":"02-2",
+          "name":"Stretch Marks",
+          "description-short":"The combination of radiofrequency skin resurfacing, microneedling and Velashape III treatment is highly effective in yielding more even and stretch mark-free skin.",
+          "description-full":"Stretch marks are common and affect people for a number of reasons. In men, stretch marks occur as a result of weight loss and whilst this also affects women, it’s predominantly women who are affected because of factors like puberty, pregnancy and genetics. Thanks to advancements in modern technology, there are now non-surgical options for eliminating stretch marks across specific areas of the body. The combination of radiofrequency skin resurfacing, microneedling and Velashape III treatment is highly effective in yielding more even and stretch mark-free skin.",
+          "image":"assets/images/stretch-marks.png",
+          "procedure-time":"30-45 mins",
+          "downtime":"Minimal",
+          "result-duration":"Varies",
+          "procedure":"Before going ahead with treatment, the medical aesthetics doctor will ask you some general questions about your health, to make sure you’re suitable. We also like to ask you what your expectations are, so we can find the treatment combination that best suits you. The combination of radiofrequency skin resurfacing, microneedling and VelaShape III addresses several issues simultaneously. Radiofrequency skin resurfacing and microneedling both work to trigger the skin’s natural collagen production and rejuvenation capability. Microneedling allows the heat emitted by the radiofrequency to enter the dermis more easily and therefore, encourages better collagen growth. Following this, VelaShape III can then be used to tighten the skin, using infrared light.",
+          "results":{
+            "intro":"Treatment can achieve the following:",
+            "outro": null,
+            "results":["* combination therapy can eliminate stretch marks around and on the thighs, upper arms, breasts, stomach and buttocks.", "*  once collagen production is triggered by radiofrequency and microneedling, VelaShape III tightens the skin, giving it a youthful and healthy look.", "*  eradicating stretch marks will render your skin more even in tone and texture "]
+          },
+          "faq":{
+            "first":{
+              "question":"Is it painful?",
+              "answer":"No. There is no pain or discomfort associated with any of the three treatments outlined above."
+            },
+            "second":{
+              "question":"Will I need to take time out to recover?",
+              "answer":"No. One of the most appealing aspects of non-surgical combination treatment is you can resume your normal activities straight afterwards."
+            }
+          }
+        },
+        {
+          "id":"02-3",
+          "name":"Skin Tags",
+          "description-short":"CryoPen XP triggers the skin’s own natural healing processes to remove them. The CryoPen itself is very similar to a regular pen in its appearance and is therefore non-intimidating to patients.",
+          "description-full":"It’s unclear exactly what causes the appearance of skin tags and lesions. Genetics and lifestyle factors (such as being overweight) are said to play a part in their presence across the skin. CryoPen XP treatment is an advanced version of its previous counterpart (CryoPen), employing pinpoint accuracy that works down to a millimetre. It works by freezing unwanted skin lesions. CryoPen XP triggers the skin’s own natural healing processes to remove them. The CryoPen itself is very similar to a regular pen in its appearance and is therefore non-intimidating to patients.",
+          "image":"assets/images/skin-tags.png",
+          "procedure-time":"20-45 mins",
+          "downtime":"Minimal",
+          "result-duration":"Varies",
+          "procedure":"After an initial consultation with our medical aesthetics doctor, treatment can proceed. A fine jet of nitrous oxide under gentle, high pressure is administered to the lesion, crystallising it, destroying the tissue and causing it to disappear. The body then repairs the skin.",
+          "results":{
+            "intro":"Post-treatment, your skin will have a more even complexion and tone, as the lesions will have been eradicated. This makes skin appear healthier, younger and rejuvenated."
+          },
+          "faq":{
+            "first":{
+              "question":"Do I need multiple treatments?",
+              "answer":"No. Clinical research has shown the effects are permanent after just one session. However, some types of lesion may return across other areas of your skin if you are predisposed to them."
+            },
+            "second":{
+              "question":"Are there any side effects?",
+              "answer":"You may experience some very minor irritation or itching for a few hours afterwards."
+            },
+            "third":{
+              "question":"Is there anything I should avoid after treatment?",
+              "answer":"You should avoid touching, scratching or picking the area until it has fully healed (this takes around 2 weeks). Should any blisters form, you should avoid touching or popping them. It’s recommended that you wear SPF 50 sun block until the area has healed. "
+            }
+          }
         }
         ]
     }
