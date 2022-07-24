@@ -524,3 +524,17 @@ section {
     margin-right: auto !important;
   }
 }
+
+
+.slide-bck-center {
+	animation: slide-bck-center 0.45s cubic-bezier(0.470, 0.000, 0.745, 0.715) both;
+}
+
+@keyframes slide-bck-center {
+  0% {
+    transform: translateZ(0);
+  }
+  100% {
+    transform: translateZ(-400px);
+  }
+}

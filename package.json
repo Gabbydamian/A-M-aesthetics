@@ -21,6 +21,7 @@
   },
   "homepage": "https://github.com/Gabbydamian/A-M-aesthetics#readme",
   "dependencies": {
+    "animate.css": "^4.1.1",
     "bootstrap": "^5.2.0",
     "bootstrap-icons": "^1.9.1",
     "font-awesome": "^4.7.0"
