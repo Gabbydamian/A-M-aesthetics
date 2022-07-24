@@ -401,6 +401,20 @@ section {
   box-shadow: 1px 1px 5px #dbdbdb;
 }
 
+.treatments-showmore-link {
+  text-transform: lowercase;
+  font-size: 16px;
+  font-weight: bold;
+  color: var(--green) !important;
+  float: right;
+  margin-right: 120px;
+  margin-top: 50px;
+}
+
+.treatments-showmore-link:hover {
+  color: var(--mint) !important;
+}
+
 @media (max-width: 768px) {
   .logo {
     max-width: 130px;

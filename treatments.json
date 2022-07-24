@@ -1,20 +1,20 @@
 {
   "treatments" : [
     {
-      "id":"01",
-      "name":"injectables",
-      "description":"Injectable treatments are the easiet and safest way to treat wrinkles & shape facial features.",
-      "image":"assets/images/injectable.png",
-      "treatments":[
+      "injectablesId":"01",
+      "injectablesName":"injectables",
+      "injectablesDescription":"Injectable treatments are the easiet and safest way to treat wrinkles & shape facial features.",
+      "injectablesImage":"assets/images/injectable.png",
+      "injectablesTreatments":[
         {
-          "id":"01-1",
-          "name":"nose",
-          "description-short":"Non-surgical nose reshaping is an incredibly popular treatment and can help to improve the aesthetic look of your nose.",
-          "description-full":"Non-surgical nose reshaping is an incredibly popular treatment and can help to improve the aesthetic look of your nose. Whilst some people have a proportioned and symmetrical nose, a lot of people are not content with the shape and other aspects of their nose. /n Also known as a liquid nose job, nose re-shaping is a significantly less invasive and safe alternative to surgery, yielding fast results. It is particularly effective for making a nose appear straighter, eliminating bumps, edges and cavities.",
-          "image":"assets/images/nose.png",
-          "procedure-time":"30 mins",
-          "downtime":"Minimal",
-          "result-duration":"12-18 Months",
+          "noseId":"01-1",
+          "noseName":"nose",
+          "noseShort":"Non-surgical nose reshaping is an incredibly popular treatment and can help to improve the aesthetic look of your nose.",
+          "noseLong":"Non-surgical nose reshaping is an incredibly popular treatment and can help to improve the aesthetic look of your nose. Whilst some people have a proportioned and symmetrical nose, a lot of people are not content with the shape and other aspects of their nose. /n Also known as a liquid nose job, nose re-shaping is a significantly less invasive and safe alternative to surgery, yielding fast results. It is particularly effective for making a nose appear straighter, eliminating bumps, edges and cavities.",
+          "noseImage":"assets/images/nose.png",
+          "noseTime":"30 mins",
+          "noseDowntime":"Minimal",
+          "noseDuration":"12-18 Months",
           "procedure":"After a discussion with one of our Medical Aesthetic Doctors about your treatment expectations we will explain in detail the specifics of your individual case and answer all your questions. Then the procedure can go ahead. It is a straightforward, fast and painless treatment. The fillers work by adding volume to fill out irregularities across your nose such as bumps and edges, whilst also improving profile. Treatment is performed with your unique facial aesthetic in mind, to give a natural, authentic and in-keeping result.",
           "results":{
             "intro":"A liquid nose job will result in improving issues like:",
@@ -107,11 +107,11 @@
         ]
     },
     {
-      "id":"02",
-      "name":"skin",
-      "description":"Our wide range of skin treatments apply to all skin conditions.",
-      "image":"assets/images/skin.png",
-      "treatments":[
+      "skinId":"02",
+      "skinName":"skin",
+      "skinDescription":"Our wide range of skin treatments apply to all skin conditions.",
+      "skinImage":"assets/images/skin.png",
+      "skinTreatments":[
         {
           "id":"02-1",
           "name":"Acne",
@@ -205,11 +205,11 @@
         ]
     },
     {
-      "id":"03",
-      "name":"body",
-      "description":"Skin Tigheting, cellulite reduction, laser hair removal and many more.",
-      "image":"assets/images/body.png",
-      "treatments":[
+      "bodyId":"03",
+      "bodyName":"body",
+      "bodyDescription":"Skin Tigheting, cellulite reduction, laser hair removal and many more.",
+      "bodyImage":"assets/images/body.png",
+      "bodyTreatments":[
         {
           "id":"02-1",
           "name":"Cellulite",
