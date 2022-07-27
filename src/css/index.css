@@ -436,6 +436,46 @@ section {
 
 .summary-info_item {
   margin: 10px 30px;
+  max-width: 230px;
+}
+
+.summary i {
+  font-size: 2rem;
+}
+
+.call-link {
+  font-size: 1.5rem;
+  color: var(--blue) !important;
+  padding: 5px 12px;
+  border-radius: 10px;
+  border: 1px solid var(--mint);
+  transition: var(--transition);
+}
+
+.call-link:hover {
+  background-color: var(--mint);
+}
+
+.call-bg {
+  padding: 20px 0;
+}
+
+button {
+  font-family: 'Raleway', sans-serif;
+}
+
+.treatment_item_background {
+  background-image: url(../../assets/images/bg-desktop.png);
+  height: 200px;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.procedure {
+  background: red;
 }
 
 @media (max-width: 768px) {
