@@ -430,6 +430,14 @@ section {
   padding: 10px 5px;
 }
 
+.summary-info {
+  justify-content: center;
+}
+
+.summary-info_item {
+  margin: 10px 30px;
+}
+
 @media (max-width: 768px) {
   .logo {
     max-width: 130px;
