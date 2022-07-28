@@ -474,10 +474,6 @@ button {
   align-items: center;
 }
 
-.procedure {
-  background: red;
-}
-
 @media (max-width: 768px) {
   .logo {
     max-width: 130px;
